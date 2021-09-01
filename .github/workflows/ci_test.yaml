@@ -1,0 +1,17 @@
+name: CI
+
+concurrency: 
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+on: [push]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build example app
+        run: ./gradlew :app:build

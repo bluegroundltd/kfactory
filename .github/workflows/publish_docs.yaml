@@ -1,0 +1,23 @@
+name: Build and Publish docs
+
+concurrency: 
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+on: [push]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build docs
+        run: ./gradlew :kfactory:dokkaHtml
+
+      - name: Deploy docs to Github Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages
+          folder: kfactory/build/dokka-html
