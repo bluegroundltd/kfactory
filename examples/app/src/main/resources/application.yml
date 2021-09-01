@@ -1,0 +1,36 @@
+micronaut:
+  application:
+    name: sample
+  security:
+    enabled: false
+  io:
+    watch:
+      paths: src/main
+      restart: true
+---
+datasources:
+  default:
+    url: ${POSTGRES_URI:`jdbc:postgresql://localhost/sample?user=dbuser&password=pass`}
+    driverClassName: org.postgresql.Driver
+    dialect: POSTGRES
+
+jpa:
+  default:
+    packages-to-scan:
+      - 'com.blueground.app'
+
+flyway:
+  datasources:
+    default:
+      enabled: true
+
+mongodb:
+  dbname: sample
+  uri: ${MONGO_URI:`mongodb://dbuser:pass@localhost:27017/sample?authSource=admin`}
+
+---
+credentials:
+  users:
+    user: pass
+  roles:
+    user: admin
