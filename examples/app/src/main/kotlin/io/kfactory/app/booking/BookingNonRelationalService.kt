@@ -160,13 +160,13 @@ class BookingNonRelationalService(
       ?: CostNREConverter.toEntity(CostFactory.produce())
 
     val bookings = BookingFactory
-      .withCheckInDate(newCheckInDate = bookingDTO.checkInDate)
-      .withCheckOutDate(newCheckOutDate = bookingDTO.checkOutDate)
-      .withProperty(newProperty = PropertyNREConverter.toDomain(property))
-      .withPaymentMethod(newPaymentMethod = PaymentMethodNREConverter.toDomain(paymentMethod))
-      .withCustomer(newCustomer = CustomerNREConverter.toDomain(customer))
-      .withCost(newCost = CostNREConverter.toDomain(cost))
-      .buildMany()
+      .withCheckInDate(checkInDate = bookingDTO.checkInDate)
+      .withCheckOutDate(checkOutDate = bookingDTO.checkOutDate)
+      .withProperty(property = PropertyNREConverter.toDomain(property))
+      .withPaymentMethod(paymentMethod = PaymentMethodNREConverter.toDomain(paymentMethod))
+      .withCustomer(customer = CustomerNREConverter.toDomain(customer))
+      .withCost(cost = CostNREConverter.toDomain(cost))
+      .produceMany()
       .take(1)
       .toList()
 
