@@ -35,7 +35,14 @@ class PropertyRE(
   @Column(name = "is_furnished")
   val furnished: Boolean
 ) {
-  override fun toString(): String {
-    return "PropertyRE(id=$id, size=$size, address=$address, numOfBedrooms=$numOfBedrooms, numOfWC=$numOfWC, floor=$floor, parkingInfo=$parkingInfo, furnished=$furnished)"
-  }
+  override fun toString(): String = "PropertyRE(" +
+    "id=$id, " +
+    "size=$size, " +
+    "address=$address, " +
+    "numOfBedrooms=$numOfBedrooms, " +
+    "numOfWC=$numOfWC, " +
+    "floor=$floor, " +
+    "parkingInfo=$parkingInfo, " +
+    "furnished=$furnished" +
+    ")"
 }
