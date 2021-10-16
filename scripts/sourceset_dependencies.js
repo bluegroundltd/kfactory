@@ -1,1 +1,1 @@
-sourceset_dependencies='{":core:dokkaHtml/main":[]}'
+sourceset_dependencies='{":kfactory:dokkaHtml/main":[]}'

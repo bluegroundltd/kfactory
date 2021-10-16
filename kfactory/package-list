@@ -1,0 +1,19 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:io.github.bluegroundltd.kfactory////PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/index.html
+$dokka.location:io.github.bluegroundltd.kfactory//withTrait/TypeParam(bounds=[io.github.bluegroundltd.kfactory.TraitEnhancedFactory])#io.github.bluegroundltd.kfactory.FactoryTrait[TypeParam(bounds=[io.github.bluegroundltd.kfactory.TraitEnhancedFactory])]/PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/with-trait.html
+$dokka.location:io.github.bluegroundltd.kfactory//withTraits/TypeParam(bounds=[io.github.bluegroundltd.kfactory.TraitEnhancedFactory])#kotlin.Array[io.github.bluegroundltd.kfactory.FactoryTrait[TypeParam(bounds=[io.github.bluegroundltd.kfactory.TraitEnhancedFactory])]]/PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/with-traits.html
+$dokka.location:io.github.bluegroundltd.kfactory/Factory///PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-factory/index.html
+$dokka.location:io.github.bluegroundltd.kfactory/Factory/produce/#/PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-factory/produce.html
+$dokka.location:io.github.bluegroundltd.kfactory/Factory/produceMany/#kotlin.Function1[TypeParam(bounds=[kotlin.Any]),kotlin.Unit]/PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-factory/produce-many.html
+$dokka.location:io.github.bluegroundltd.kfactory/FactoryToolbelt///PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-factory-toolbelt/index.html
+$dokka.location:io.github.bluegroundltd.kfactory/FactoryToolbelt/date/#/PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-factory-toolbelt/date.html
+$dokka.location:io.github.bluegroundltd.kfactory/FactoryToolbelt/dateTime/#/PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-factory-toolbelt/date-time.html
+$dokka.location:io.github.bluegroundltd.kfactory/FactoryToolbelt/randomAlphaNumeric/#kotlin.Int/PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-factory-toolbelt/random-alpha-numeric.html
+$dokka.location:io.github.bluegroundltd.kfactory/FactoryToolbelt/time/#/PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-factory-toolbelt/time.html
+$dokka.location:io.github.bluegroundltd.kfactory/FactoryToolbelt/uuid/#/PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-factory-toolbelt/uuid.html
+$dokka.location:io.github.bluegroundltd.kfactory/FactoryTrait///PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-factory-trait/index.html
+$dokka.location:io.github.bluegroundltd.kfactory/FactoryTrait/modifyWithTrait/#TypeParam(bounds=[io.github.bluegroundltd.kfactory.TraitEnhancedFactory])/PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-factory-trait/modify-with-trait.html
+$dokka.location:io.github.bluegroundltd.kfactory/TraitEnhancedFactory///PointingToDeclaration/kfactory/io.github.bluegroundltd.kfactory/-trait-enhanced-factory/index.html
+io.github.bluegroundltd.kfactory
+
