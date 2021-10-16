@@ -102,11 +102,8 @@ implementation("io.github.bluegroundltd:kfactory:1.0.0")
 
 ## Usage
 
-You can find a lot of factory examples inside [examples](examples) directory!
-
-## API Reference
-
-API reference is available under this [link](https://bluegroundltd.github.io/kfactory/)!
+* [API reference](https://bluegroundltd.github.io/kfactory/)
+* Check the [examples](https://github.com/bluegroundltd/kfactory/tree/main/examples) for some common use cases
 
 ### Creating a new Factory
 
