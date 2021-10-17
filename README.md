@@ -274,7 +274,7 @@ $ ./gradlew :kfactory:publish \
             -PmavenCentralPassword=<nexus_password>
 ```
 
-After this operation finishes, you can promote the artifact to be releasable with:
+After this operation finishes, you can promote the artifact to be released with:
 ```shell
 $ ./gradlew closeAndReleaseRepository \
             -PmavenCentralUsername=<nexus_username> \
